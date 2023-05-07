@@ -17,10 +17,10 @@ Place a chessboard pattern in front of the camera. Ensure that the chessboard ha
 
 Run the first part of the code to capture images of the chessboard pattern. Press the 's' key to save an image with the detected chessboard pattern, and press the 'q' key to quit the program.
 
-python capture_images.py
+python capture_camera_calibration.py
 
 Once you have captured enough images, run the second part of the code to calibrate the camera using the images.
 
-python calibrate_camera.py
+python camera_calibration.py
 
 The calibration data, including the camera matrix, distortion coefficients, rotation vectors, and translation vectors, will be saved in the calib_data folder as MultiMatrix.npz.
